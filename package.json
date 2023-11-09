@@ -1,0 +1,27 @@
+{
+  "name": "norris",
+  "version": "1.0.0",
+  "description": "API Norris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidecardelli/node-norris.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Davide Cardelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidecardelli/node-norris/issues"
+  },
+  "homepage": "https://github.com/davidecardelli/node-norris#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
